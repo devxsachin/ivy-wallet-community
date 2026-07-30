@@ -240,6 +240,11 @@
     <string name="no_transactions_for_query">There are no transactions for the "%1$s" query.</string>
     <string name="import_export"><![CDATA[Import & Export]]></string>
     <string name="backup_data">Backup data</string>
+    <string name="drive_auto_backup">Auto-backup to Google Drive</string>
+    <string name="drive_auto_backup_description">Automatically backs up your data to your Google Drive every 6 hours</string>
+    <string name="drive_last_backup">Last backup: %1$s</string>
+    <string name="drive_backup_enabled">Google Drive auto-backup enabled</string>
+    <string name="drive_backup_failed">Google Drive backup failed: %1$s</string>
     <string name="import_data">Import data</string>
     <string name="app_settings">App Settings</string>
     <string name="lock_app">Lock App</string>

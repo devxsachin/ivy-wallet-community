@@ -27,21 +27,21 @@ android {
         generateLocaleConfig = true
     }
 
-    signingConfigs {
-        getByName("debug") {
-            storeFile = file("../debug.jks")
-            storePassword = "IVY7834!DEbug"
-            keyAlias = "debug"
-            keyPassword = "IVY7834!DEbug"
-        }
-
-        create("release") {
-            storeFile = file("../sign.jks")
-            storePassword = System.getenv("SIGNING_STORE_PASSWORD")
-            keyAlias = System.getenv("SIGNING_KEY_ALIAS")
-            keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
-        }
+   signingConfigs {
+    getByName("debug") {
+        storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+        storePassword = "android"
+        keyAlias = "androiddebugkey"
+        keyPassword = "android"
     }
+
+    create("release") {
+        storeFile = file("../sign.jks")
+        storePassword = System.getenv("SIGNING_STORE_PASSWORD")
+        keyAlias = System.getenv("SIGNING_KEY_ALIAS")
+        keyPassword = System.getenv("SIGNING_KEY_PASSWORD")
+    }
+}
 
     buildTypes {
         release {

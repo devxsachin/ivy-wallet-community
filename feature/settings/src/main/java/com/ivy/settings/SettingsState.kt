@@ -1,5 +1,6 @@
 package com.ivy.settings
 
+import android.app.PendingIntent
 import com.ivy.base.legacy.Theme
 
 data class SettingsState(
@@ -13,5 +14,8 @@ data class SettingsState(
     val treatTransfersAsIncomeExpense: Boolean,
     val startDateOfMonth: String,
     val progressState: Boolean,
-    val languageOptionVisible: Boolean
+    val languageOptionVisible: Boolean,
+    val driveAutoBackupEnabled: Boolean,
+    val driveLastBackupTime: String?,
+    val drivePendingConsent: PendingIntent?
 )

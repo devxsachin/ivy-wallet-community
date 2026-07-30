@@ -1,5 +1,6 @@
 package com.ivy.settings
 
+import android.content.Intent
 import com.ivy.domain.RootScreen
 
 sealed interface SettingsEvent {
@@ -16,6 +17,8 @@ sealed interface SettingsEvent {
         SettingsEvent
 
     data class SetStartDateOfMonth(val startDate: Int) : SettingsEvent
+    data class SetDriveAutoBackup(val enabled: Boolean) : SettingsEvent
+    data class DriveConsentResult(val consentIntent: Intent?) : SettingsEvent
     data object DeleteCloudUserData : SettingsEvent
     data object DeleteAllUserData : SettingsEvent
     data object SwitchLanguage : SettingsEvent

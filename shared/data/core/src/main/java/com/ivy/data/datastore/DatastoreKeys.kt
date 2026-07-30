@@ -19,6 +19,11 @@ object DatastoreKeys {
     val GITHUB_LAST_BACKUP_EPOCH_SEC =
         longPreferencesKey("github_backup_last_backup_time_epoch_sec")
 
+    val DRIVE_AUTO_BACKUP_ENABLED = booleanPreferencesKey("drive_auto_backup_enabled")
+
+    val DRIVE_LAST_BACKUP_EPOCH_SEC =
+        longPreferencesKey("drive_backup_last_backup_time_epoch_sec")
+
     fun ivyFeature(key: String): Preferences.Key<Boolean> {
         return booleanPreferencesKey("feature_$key")
     }

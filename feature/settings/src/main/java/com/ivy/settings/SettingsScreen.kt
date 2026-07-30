@@ -1,5 +1,11 @@
 package com.ivy.settings
 
+import android.app.Activity
+import android.app.PendingIntent
+import android.content.Intent
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.IntentSenderRequest
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -20,6 +26,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -128,6 +135,15 @@ fun BoxWithConstraintsScope.SettingsScreen() {
         onSetTreatTransfersAsIncExp = {
             viewModel.onEvent(SettingsEvent.SetTransfersAsIncomeExpense(it))
         },
+        driveAutoBackupEnabled = uiState.driveAutoBackupEnabled,
+        driveLastBackupTime = uiState.driveLastBackupTime,
+        drivePendingConsent = uiState.drivePendingConsent,
+        onSetDriveAutoBackup = {
+            viewModel.onEvent(SettingsEvent.SetDriveAutoBackup(it))
+        },
+        onDriveConsentResult = {
+            viewModel.onEvent(SettingsEvent.DriveConsentResult(it))
+        },
         onDeleteAllUserData = {
             viewModel.onEvent(SettingsEvent.DeleteAllUserData)
         },
@@ -168,7 +184,12 @@ private fun BoxWithConstraintsScope.UI(
     onSetStartDateOfMonth: (Int) -> Unit = {},
     onDeleteAllUserData: () -> Unit = {},
     onDeleteCloudUserData: () -> Unit = {},
-    onSwitchLanguage: () -> Unit = {}
+    onSwitchLanguage: () -> Unit = {},
+    driveAutoBackupEnabled: Boolean = false,
+    driveLastBackupTime: String? = null,
+    drivePendingConsent: PendingIntent? = null,
+    onSetDriveAutoBackup: (Boolean) -> Unit = {},
+    onDriveConsentResult: (Intent?) -> Unit = {}
 ) {
     var currencyModalVisible by remember { mutableStateOf(false) }
     var nameModalVisible by remember { mutableStateOf(false) }
@@ -177,6 +198,21 @@ private fun BoxWithConstraintsScope.UI(
     var deleteAllDataModalVisible by remember { mutableStateOf(false) }
     var deleteAllDataModalFinalVisible by remember { mutableStateOf(false) }
     val nav = navigation()
+
+    val driveConsentLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.StartIntentSenderForResult()
+    ) { result ->
+        onDriveConsentResult(
+            result.data.takeIf { result.resultCode == Activity.RESULT_OK }
+        )
+    }
+    LaunchedEffect(drivePendingConsent) {
+        drivePendingConsent?.let { consent ->
+            driveConsentLauncher.launch(
+                IntentSenderRequest.Builder(consent.intentSender).build()
+            )
+        }
+    }
 
     LazyColumn(
         modifier = Modifier
@@ -256,6 +292,18 @@ private fun BoxWithConstraintsScope.UI(
             ) {
                 onBackupData()
             }
+
+            Spacer(Modifier.height(12.dp))
+
+            AppSwitch(
+                lockApp = driveAutoBackupEnabled,
+                onSetLockApp = onSetDriveAutoBackup,
+                text = stringResource(R.string.drive_auto_backup),
+                icon = R.drawable.ic_vue_brands_drive,
+                description = driveLastBackupTime?.let {
+                    stringResource(R.string.drive_last_backup, it)
+                } ?: stringResource(R.string.drive_auto_backup_description)
+            )
 
             Spacer(Modifier.height(12.dp))
 

@@ -1,11 +1,13 @@
 package com.ivy.settings
 
 import android.annotation.SuppressLint
+import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
+import android.widget.Toast
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.Stable
@@ -16,6 +18,7 @@ import com.ivy.base.legacy.SharedPrefs
 import com.ivy.base.legacy.Theme
 import com.ivy.base.legacy.refreshWidget
 import com.ivy.data.backup.BackupDataUseCase
+import com.ivy.data.backup.drive.GoogleDriveBackup
 import com.ivy.data.db.dao.read.SettingsDao
 import com.ivy.data.db.dao.write.WriteSettingsDao
 import com.ivy.data.model.primitive.AssetCode
@@ -31,6 +34,7 @@ import com.ivy.legacy.utils.ioThread
 import com.ivy.legacy.utils.timeNowUTC
 import com.ivy.legacy.utils.uiThread
 import com.ivy.ui.ComposeViewModel
+import com.ivy.ui.R
 import com.ivy.wallet.domain.action.global.StartDayOfMonthAct
 import com.ivy.wallet.domain.action.global.UpdateStartDayOfMonthAct
 import com.ivy.wallet.domain.action.settings.SettingsAct
@@ -39,6 +43,10 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+import java.util.Locale
 import javax.inject.Inject
 
 @Stable
@@ -57,6 +65,7 @@ class SettingsViewModel @Inject constructor(
     private val updateSettingsAct: UpdateSettingsAct,
     private val settingsWriter: WriteSettingsDao,
     private val exportCsvUseCase: ExportCsvUseCase,
+    private val googleDriveBackup: GoogleDriveBackup,
     @ApplicationContext private val context: Context
 ) : ComposeViewModel<SettingsState, SettingsEvent>() {
 
@@ -70,6 +79,10 @@ class SettingsViewModel @Inject constructor(
     private val treatTransfersAsIncomeExpense = mutableStateOf(false)
     private val startDateOfMonth = mutableIntStateOf(1)
     private val progressState = mutableStateOf(false)
+    private val driveAutoBackupEnabled = mutableStateOf(false)
+    private val driveLastBackupTime = mutableStateOf<String?>(null)
+    private val drivePendingConsent = mutableStateOf<PendingIntent?>(null)
+    private var driveBackupCollectorsStarted = false
 
     @Composable
     override fun uiState(): SettingsState {
@@ -88,7 +101,10 @@ class SettingsViewModel @Inject constructor(
             startDateOfMonth = getStartDateOfMonth(),
             progressState = getProgressState(),
             hideIncome = getHideIncome(),
-            languageOptionVisible = isLanguageOptionVisible()
+            languageOptionVisible = isLanguageOptionVisible(),
+            driveAutoBackupEnabled = getDriveAutoBackupEnabled(),
+            driveLastBackupTime = getDriveLastBackupTime(),
+            drivePendingConsent = getDrivePendingConsent()
         )
     }
 
@@ -102,6 +118,30 @@ class SettingsViewModel @Inject constructor(
         initializeHideIncome()
         initializeTransfersAsIncomeExpense()
         initializeStartDateOfMonth()
+        initializeDriveAutoBackup()
+    }
+
+    private fun initializeDriveAutoBackup() {
+        if (driveBackupCollectorsStarted) return
+        driveBackupCollectorsStarted = true
+
+        viewModelScope.launch {
+            googleDriveBackup.enabled.collect {
+                driveAutoBackupEnabled.value = it
+            }
+        }
+        viewModelScope.launch {
+            googleDriveBackup.lastBackupTime.collect { lastBackup ->
+                driveLastBackupTime.value = lastBackup?.let(::formatBackupTime)
+            }
+        }
+    }
+
+    private fun formatBackupTime(time: Instant): String {
+        return DateTimeFormatter
+            .ofPattern("MMM dd, yyyy HH:mm", Locale.getDefault())
+            .withZone(ZoneId.systemDefault())
+            .format(time)
     }
 
     private suspend fun initializeCurrency() {
@@ -203,6 +243,21 @@ class SettingsViewModel @Inject constructor(
         return progressState.value
     }
 
+    @Composable
+    private fun getDriveAutoBackupEnabled(): Boolean {
+        return driveAutoBackupEnabled.value
+    }
+
+    @Composable
+    private fun getDriveLastBackupTime(): String? {
+        return driveLastBackupTime.value
+    }
+
+    @Composable
+    private fun getDrivePendingConsent(): PendingIntent? {
+        return drivePendingConsent.value
+    }
+
     private fun isLanguageOptionVisible(): Boolean {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
     }
@@ -229,6 +284,9 @@ class SettingsViewModel @Inject constructor(
             )
 
             is SettingsEvent.SetStartDateOfMonth -> setStartDateOfMonth(event.startDate)
+
+            is SettingsEvent.SetDriveAutoBackup -> setDriveAutoBackup(event.enabled)
+            is SettingsEvent.DriveConsentResult -> driveConsentResult(event.consentIntent)
 
             SettingsEvent.DeleteCloudUserData -> deleteCloudUserData()
             SettingsEvent.DeleteAllUserData -> deleteAllUserData()
@@ -371,6 +429,57 @@ class SettingsViewModel @Inject constructor(
                 }
             }
         }
+    }
+
+    private fun setDriveAutoBackup(enabled: Boolean) {
+        viewModelScope.launch {
+            if (enabled) {
+                when (val result = googleDriveBackup.enable()) {
+                    GoogleDriveBackup.EnableResult.Enabled -> onDriveBackupEnabled()
+
+                    is GoogleDriveBackup.EnableResult.ConsentRequired ->
+                        drivePendingConsent.value = result.pendingIntent
+
+                    is GoogleDriveBackup.EnableResult.Failed ->
+                        driveBackupToast(
+                            context.getString(R.string.drive_backup_failed, result.reason)
+                        )
+                }
+            } else {
+                googleDriveBackup.disable()
+            }
+        }
+    }
+
+    private fun driveConsentResult(consentIntent: Intent?) {
+        drivePendingConsent.value = null
+        if (consentIntent == null) return
+
+        viewModelScope.launch {
+            when (val result = googleDriveBackup.finishEnable(consentIntent)) {
+                GoogleDriveBackup.EnableResult.Enabled -> onDriveBackupEnabled()
+
+                is GoogleDriveBackup.EnableResult.ConsentRequired -> {}
+
+                is GoogleDriveBackup.EnableResult.Failed ->
+                    driveBackupToast(
+                        context.getString(R.string.drive_backup_failed, result.reason)
+                    )
+            }
+        }
+    }
+
+    private suspend fun onDriveBackupEnabled() {
+        driveBackupToast(context.getString(R.string.drive_backup_enabled))
+        googleDriveBackup.backupNow().onLeft { error ->
+            driveBackupToast(
+                context.getString(R.string.drive_backup_failed, error.humanReadable)
+            )
+        }
+    }
+
+    private fun driveBackupToast(message: String) {
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show()
     }
 
     private fun deleteCloudUserData() {

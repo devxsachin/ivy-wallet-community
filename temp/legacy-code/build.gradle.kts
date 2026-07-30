@@ -23,4 +23,6 @@ dependencies {
     implementation(libs.datastore)
     implementation(libs.keval)
     implementation(libs.androidx.recyclerview)
+
+    ksp(libs.hilt.androidx.compiler)
 }
