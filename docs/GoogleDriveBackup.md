@@ -33,9 +33,18 @@ The feature needs OAuth to be configured in the Google Cloud project that backs
 3. **Create Android OAuth clients**: APIs & Services → Credentials → Create Credentials →
    OAuth client ID → Android. One client per applicationId + signing key combination:
    - `com.ivy.wallet` with the release keystore's SHA-1 (`sign.jks`)
-   - `com.ivy.wallet.debug` with the debug keystore's SHA-1 (`debug.jks`, committed at repo root)
+   - `com.ivy.wallet.debug` with **your local debug keystore's** SHA-1. Debug builds are
+     signed with `~/.android/debug.keystore` (see `signingConfigs` in `app/build.gradle.kts`),
+     not the repo's committed `debug.jks` — Google allows a given (package name + SHA-1)
+     pair to be an Android OAuth client in only one Cloud project globally, and `debug.jks`'s
+     fingerprint is already claimed by the upstream Ivy Apps project. Get your SHA-1 with:
 
-   Get a SHA-1 with: `keytool -list -v -keystore <keystore> -alias <alias>`
+     ```
+     keytool -list -v -keystore ~/.android/debug.keystore -storepass android | grep SHA1
+     ```
+
+   To check which certificate an APK is actually signed with:
+   `$ANDROID_HOME/build-tools/34.0.0/apksigner verify --print-certs <apk>`
 4. **Configure the OAuth consent screen** (if not already) and add the
    `https://www.googleapis.com/auth/drive.file` scope. While the consent screen is in
    "Testing" publishing status, only listed test users can authorize.
