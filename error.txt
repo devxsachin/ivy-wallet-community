@@ -1,0 +1,990 @@
+Reusing configuration cache.
+> Task :feature:categories:preBuild UP-TO-DATE
+> Task :feature:budgets:preBuild UP-TO-DATE
+> Task :feature:contributors:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :feature:accounts:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :feature:accounts:preReleaseBuild UP-TO-DATE
+> Task :feature:budgets:preReleaseBuild UP-TO-DATE
+> Task :feature:attributions:preBuild UP-TO-DATE
+> Task :feature:disclaimer:preBuild UP-TO-DATE
+> Task :feature:attributions:preReleaseBuild UP-TO-DATE
+> Task :feature:categories:preReleaseBuild UP-TO-DATE
+> Task :feature:contributors:preReleaseBuild UP-TO-DATE
+> Task :feature:disclaimer:preReleaseBuild UP-TO-DATE
+> Task :feature:balance:preBuild UP-TO-DATE
+> Task :feature:balance:preReleaseBuild UP-TO-DATE
+> Task :feature:contributors:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:contributors:mergeReleaseNativeLibs NO-SOURCE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:disclaimer:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:attributions:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:balance:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:accounts:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:categories:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:budgets:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:contributors:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:categories:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:balance:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:attributions:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:disclaimer:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:budgets:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:accounts:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:attributions:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:edit-transaction:preBuild UP-TO-DATE
+> Task :feature:accounts:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:disclaimer:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:budgets:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:features:preBuild UP-TO-DATE
+> Task :feature:categories:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:exchange-rates:preBuild UP-TO-DATE
+> Task :feature:edit-transaction:preReleaseBuild UP-TO-DATE
+> Task :feature:features:preReleaseBuild UP-TO-DATE
+> Task :feature:exchange-rates:preReleaseBuild UP-TO-DATE
+> Task :feature:import-data:preBuild UP-TO-DATE
+> Task :feature:home:preBuild UP-TO-DATE
+> Task :feature:main:preBuild UP-TO-DATE
+> Task :feature:home:preReleaseBuild UP-TO-DATE
+> Task :feature:import-data:preReleaseBuild UP-TO-DATE
+> Task :feature:loans:preBuild UP-TO-DATE
+> Task :feature:loans:preReleaseBuild UP-TO-DATE
+> Task :feature:main:preReleaseBuild UP-TO-DATE
+> Task :feature:import-data:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:features:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:edit-transaction:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:exchange-rates:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:import-data:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:edit-transaction:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:home:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:loans:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:exchange-rates:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:edit-transaction:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:main:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:features:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:exchange-rates:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:onboarding:preBuild UP-TO-DATE
+> Task :feature:features:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:onboarding:preReleaseBuild UP-TO-DATE
+> Task :feature:balance:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:onboarding:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:main:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:planned-payments:preBuild UP-TO-DATE
+> Task :feature:planned-payments:preReleaseBuild UP-TO-DATE
+> Task :feature:main:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:releases:preBuild UP-TO-DATE
+> Task :feature:releases:preReleaseBuild UP-TO-DATE
+> Task :feature:planned-payments:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:home:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:reports:preBuild UP-TO-DATE
+> Task :feature:reports:preReleaseBuild UP-TO-DATE
+> Task :feature:releases:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:home:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:import-data:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:loans:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:reports:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:onboarding:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:planned-payments:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:releases:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:loans:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:reports:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:transactions:preBuild UP-TO-DATE
+> Task :feature:settings:preBuild UP-TO-DATE
+> Task :feature:piechart:preBuild UP-TO-DATE
+> Task :feature:settings:preReleaseBuild UP-TO-DATE
+> Task :feature:transactions:preReleaseBuild UP-TO-DATE
+> Task :feature:search:preBuild UP-TO-DATE
+> Task :feature:piechart:preReleaseBuild UP-TO-DATE
+> Task :feature:planned-payments:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:onboarding:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:search:preReleaseBuild UP-TO-DATE
+> Task :shared:base:preBuild UP-TO-DATE
+> Task :shared:base:preReleaseBuild UP-TO-DATE
+> Task :feature:reports:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:releases:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :temp:legacy-code:preBuild UP-TO-DATE
+> Task :shared:domain:preBuild UP-TO-DATE
+> Task :feature:settings:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:piechart:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:search:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:domain:preReleaseBuild UP-TO-DATE
+> Task :temp:legacy-code:preReleaseBuild UP-TO-DATE
+> Task :temp:old-design:preBuild UP-TO-DATE
+> Task :temp:old-design:preReleaseBuild UP-TO-DATE
+> Task :feature:piechart:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:search:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:settings:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:base:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:domain:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:transactions:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:piechart:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :temp:legacy-code:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:domain:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:transactions:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:base:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:add-transaction:preBuild UP-TO-DATE
+> Task :widget:add-transaction:preReleaseBuild UP-TO-DATE
+> Task :temp:old-design:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :feature:search:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:settings:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :temp:legacy-code:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:shared-base:preBuild UP-TO-DATE
+> Task :shared:base:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:transactions:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:domain:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :widget:balance:preBuild UP-TO-DATE
+> Task :widget:balance:preReleaseBuild UP-TO-DATE
+> Task :temp:old-design:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:add-transaction:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :widget:shared-base:preReleaseBuild UP-TO-DATE
+> Task :temp:legacy-code:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:poll:impl:preBuild UP-TO-DATE
+> Task :shared:data:core:preBuild UP-TO-DATE
+> Task :feature:poll:impl:preReleaseBuild UP-TO-DATE
+> Task :widget:shared-base:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :temp:old-design:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:poll:public:preBuild UP-TO-DATE
+> Task :shared:data:core:preReleaseBuild UP-TO-DATE
+> Task :feature:poll:public:preReleaseBuild UP-TO-DATE
+> Task :feature:poll:impl:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :widget:balance:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:ui:core:preBuild UP-TO-DATE
+> Task :shared:data:model:preBuild UP-TO-DATE
+> Task :shared:data:core:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:data:model:preReleaseBuild UP-TO-DATE
+> Task :feature:poll:public:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:ui:core:preReleaseBuild UP-TO-DATE
+> Task :widget:add-transaction:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:shared-base:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:balance:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:poll:impl:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:data:core:mergeReleaseNativeLibs NO-SOURCE
+> Task :widget:balance:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :widget:add-transaction:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :widget:shared-base:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:poll:impl:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :feature:poll:public:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:data:model:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:ui:navigation:preBuild UP-TO-DATE
+> Task :feature:poll:public:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:ui:core:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:ui:navigation:preReleaseBuild UP-TO-DATE
+> Task :feature:attributions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:base:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:data:core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:data:model:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:ui:core:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared:base:generateReleaseResValues UP-TO-DATE
+> Task :shared:data:model:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:base:javaPreCompileRelease UP-TO-DATE
+> Task :feature:attributions:generateReleaseResValues UP-TO-DATE
+> Task :shared:domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:data:core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:data:model:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:ui:core:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:domain:generateReleaseResValues UP-TO-DATE
+> Task :shared:ui:navigation:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :shared:base:generateReleaseResources UP-TO-DATE
+> Task :shared:data:core:generateReleaseResValues UP-TO-DATE
+> Task :shared:data:model:generateReleaseResValues UP-TO-DATE
+> Task :shared:data:model:javaPreCompileRelease UP-TO-DATE
+> Task :shared:ui:navigation:mergeReleaseNativeLibs NO-SOURCE
+> Task :feature:attributions:generateReleaseResources UP-TO-DATE
+> Task :shared:data:core:javaPreCompileRelease UP-TO-DATE
+> Task :shared:data:model:generateReleaseResources UP-TO-DATE
+> Task :shared:ui:navigation:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :shared:domain:generateReleaseResources UP-TO-DATE
+> Task :shared:domain:javaPreCompileRelease UP-TO-DATE
+> Task :shared:data:core:generateReleaseResources UP-TO-DATE
+> Task :shared:ui:core:generateReleaseResValues UP-TO-DATE
+> Task :shared:ui:core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:ui:core:javaPreCompileRelease UP-TO-DATE
+> Task :shared:ui:core:generateReleaseResources UP-TO-DATE
+> Task :shared:base:packageReleaseResources UP-TO-DATE
+> Task :feature:attributions:packageReleaseResources UP-TO-DATE
+> Task :shared:domain:packageReleaseResources UP-TO-DATE
+> Task :shared:data:model:packageReleaseResources UP-TO-DATE
+> Task :shared:ui:navigation:generateReleaseResValues UP-TO-DATE
+> Task :shared:data:core:packageReleaseResources UP-TO-DATE
+> Task :feature:attributions:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:base:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:ui:core:packageReleaseResources UP-TO-DATE
+> Task :shared:domain:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:data:core:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:ui:core:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:data:model:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:ui:navigation:generateReleaseResources UP-TO-DATE
+> Task :shared:base:generateReleaseRFile UP-TO-DATE
+> Task :feature:attributions:generateReleaseRFile UP-TO-DATE
+> Task :shared:domain:generateReleaseRFile UP-TO-DATE
+> Task :shared:data:core:generateReleaseRFile UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :shared:ui:core:generateReleaseRFile UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
+> Task :shared:ui:navigation:javaPreCompileRelease UP-TO-DATE
+> Task :feature:balance:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:balance:generateReleaseResValues UP-TO-DATE
+> Task :shared:ui:navigation:packageReleaseResources UP-TO-DATE
+> Task :shared:ui:navigation:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:ui:navigation:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :temp:legacy-code:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :temp:legacy-code:generateReleaseResValues UP-TO-DATE
+> Task :feature:balance:generateReleaseResources UP-TO-DATE
+> Task :feature:attributions:javaPreCompileRelease UP-TO-DATE
+> Task :temp:old-design:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+> Task :temp:old-design:generateReleaseResValues UP-TO-DATE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :shared:ui:navigation:generateReleaseRFile UP-TO-DATE
+> Task :temp:legacy-code:generateReleaseResources UP-TO-DATE
+> Task :temp:old-design:javaPreCompileRelease UP-TO-DATE
+> Task :feature:budgets:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :temp:old-design:generateReleaseResources UP-TO-DATE
+> Task :temp:legacy-code:javaPreCompileRelease UP-TO-DATE
+> Task :feature:balance:javaPreCompileRelease UP-TO-DATE
+> Task :shared:data:model:generateReleaseRFile UP-TO-DATE
+> Task :feature:categories:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:budgets:generateReleaseResValues UP-TO-DATE
+> Task :feature:budgets:javaPreCompileRelease UP-TO-DATE
+> Task :feature:budgets:generateReleaseResources UP-TO-DATE
+> Task :feature:balance:packageReleaseResources UP-TO-DATE
+> Task :feature:categories:generateReleaseResValues UP-TO-DATE
+> Task :feature:categories:javaPreCompileRelease UP-TO-DATE
+> Task :temp:legacy-code:packageReleaseResources UP-TO-DATE
+> Task :feature:balance:parseReleaseLocalResources UP-TO-DATE
+> Task :temp:old-design:packageReleaseResources UP-TO-DATE
+> Task :feature:budgets:packageReleaseResources UP-TO-DATE
+> Task :shared:base:kspReleaseKotlin UP-TO-DATE
+> Task :feature:contributors:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:budgets:parseReleaseLocalResources UP-TO-DATE
+> Task :temp:legacy-code:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:categories:generateReleaseResources UP-TO-DATE
+> Task :temp:old-design:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:contributors:generateReleaseResValues UP-TO-DATE
+> Task :feature:balance:generateReleaseRFile UP-TO-DATE
+> Task :feature:contributors:generateReleaseResources UP-TO-DATE
+> Task :feature:contributors:javaPreCompileRelease UP-TO-DATE
+> Task :feature:budgets:generateReleaseRFile UP-TO-DATE
+> Task :feature:disclaimer:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :temp:legacy-code:generateReleaseRFile UP-TO-DATE
+> Task :feature:disclaimer:generateReleaseResValues UP-TO-DATE
+> Task :feature:disclaimer:javaPreCompileRelease UP-TO-DATE
+> Task :feature:edit-transaction:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :temp:old-design:generateReleaseRFile UP-TO-DATE
+> Task :feature:categories:packageReleaseResources UP-TO-DATE
+> Task :widget:balance:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :widget:balance:generateReleaseResValues UP-TO-DATE
+> Task :feature:contributors:packageReleaseResources UP-TO-DATE
+> Task :feature:edit-transaction:generateReleaseResValues UP-TO-DATE
+> Task :shared:data:model:kspReleaseKotlin UP-TO-DATE
+> Task :shared:base:compileReleaseKotlin UP-TO-DATE
+> Task :widget:balance:generateReleaseResources UP-TO-DATE
+> Task :feature:disclaimer:generateReleaseResources UP-TO-DATE
+> Task :widget:shared-base:generateReleaseResValues UP-TO-DATE
+> Task :feature:contributors:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:edit-transaction:generateReleaseResources UP-TO-DATE
+> Task :widget:shared-base:generateReleaseResources UP-TO-DATE
+> Task :widget:balance:packageReleaseResources UP-TO-DATE
+> Task :feature:categories:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:disclaimer:packageReleaseResources UP-TO-DATE
+> Task :feature:disclaimer:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:edit-transaction:packageReleaseResources UP-TO-DATE
+> Task :shared:base:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :feature:edit-transaction:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:categories:generateReleaseRFile UP-TO-DATE
+> Task :widget:balance:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:edit-transaction:generateReleaseRFile UP-TO-DATE
+> Task :widget:shared-base:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:disclaimer:generateReleaseRFile UP-TO-DATE
+> Task :feature:contributors:generateReleaseRFile UP-TO-DATE
+> Task :widget:shared-base:javaPreCompileRelease UP-TO-DATE
+> Task :shared:data:model:compileReleaseKotlin UP-TO-DATE
+> Task :feature:exchange-rates:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :widget:balance:javaPreCompileRelease UP-TO-DATE
+> Task :feature:features:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:edit-transaction:javaPreCompileRelease UP-TO-DATE
+> Task :shared:data:model:compileReleaseJavaWithJavac NO-SOURCE
+> Task :feature:exchange-rates:javaPreCompileRelease UP-TO-DATE
+> Task :widget:balance:generateReleaseRFile UP-TO-DATE
+> Task :feature:exchange-rates:generateReleaseResValues UP-TO-DATE
+> Task :feature:features:generateReleaseResValues UP-TO-DATE
+> Task :feature:features:javaPreCompileRelease UP-TO-DATE
+> Task :widget:shared-base:packageReleaseResources UP-TO-DATE
+> Task :feature:accounts:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:features:generateReleaseResources UP-TO-DATE
+> Task :feature:accounts:generateReleaseResValues UP-TO-DATE
+> Task :feature:home:generateReleaseResValues UP-TO-DATE
+> Task :feature:accounts:javaPreCompileRelease UP-TO-DATE
+> Task :widget:shared-base:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:home:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:base:transformReleaseClassesWithAsm UP-TO-DATE
+> Task :feature:accounts:generateReleaseResources UP-TO-DATE
+> Task :feature:exchange-rates:generateReleaseResources UP-TO-DATE
+> Task :shared:base:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :widget:add-transaction:generateReleaseResValues UP-TO-DATE
+> Task :feature:features:packageReleaseResources UP-TO-DATE
+> Task :feature:home:generateReleaseResources UP-TO-DATE
+> Task :shared:data:model:transformReleaseClassesWithAsm UP-TO-DATE
+> Task :widget:shared-base:generateReleaseRFile UP-TO-DATE
+> Task :shared:base:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :widget:add-transaction:generateReleaseResources UP-TO-DATE
+> Task :feature:accounts:packageReleaseResources UP-TO-DATE
+> Task :shared:data:model:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :shared:data:model:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :feature:accounts:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:features:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:exchange-rates:packageReleaseResources UP-TO-DATE
+> Task :feature:home:packageReleaseResources UP-TO-DATE
+> Task :widget:add-transaction:packageReleaseResources UP-TO-DATE
+> Task :feature:home:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:home:generateReleaseRFile UP-TO-DATE
+> Task :widget:add-transaction:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:poll:public:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :widget:add-transaction:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:poll:public:generateReleaseResValues UP-TO-DATE
+> Task :widget:add-transaction:javaPreCompileRelease UP-TO-DATE
+> Task :feature:exchange-rates:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:features:generateReleaseRFile UP-TO-DATE
+> Task :feature:poll:public:javaPreCompileRelease UP-TO-DATE
+> Task :feature:main:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:poll:public:generateReleaseResources UP-TO-DATE
+> Task :feature:accounts:generateReleaseRFile UP-TO-DATE
+> Task :feature:import-data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:home:javaPreCompileRelease UP-TO-DATE
+> Task :feature:main:generateReleaseResValues UP-TO-DATE
+> Task :feature:main:javaPreCompileRelease UP-TO-DATE
+> Task :feature:import-data:generateReleaseResValues UP-TO-DATE
+> Task :feature:exchange-rates:generateReleaseRFile UP-TO-DATE
+> Task :feature:onboarding:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :widget:add-transaction:generateReleaseRFile UP-TO-DATE
+> Task :feature:poll:public:packageReleaseResources UP-TO-DATE
+> Task :feature:import-data:generateReleaseResources UP-TO-DATE
+> Task :feature:poll:public:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:onboarding:javaPreCompileRelease UP-TO-DATE
+> Task :feature:loans:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:main:generateReleaseResources UP-TO-DATE
+> Task :feature:onboarding:generateReleaseResValues UP-TO-DATE
+> Task :feature:import-data:javaPreCompileRelease UP-TO-DATE
+> Task :feature:import-data:packageReleaseResources UP-TO-DATE
+> Task :feature:loans:generateReleaseResValues UP-TO-DATE
+> Task :feature:piechart:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:loans:javaPreCompileRelease UP-TO-DATE
+> Task :feature:poll:public:generateReleaseRFile UP-TO-DATE
+> Task :feature:onboarding:generateReleaseResources UP-TO-DATE
+> Task :feature:planned-payments:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:loans:generateReleaseResources UP-TO-DATE
+> Task :feature:piechart:generateReleaseResValues UP-TO-DATE
+> Task :feature:import-data:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:planned-payments:generateReleaseResValues UP-TO-DATE
+> Task :feature:piechart:javaPreCompileRelease UP-TO-DATE
+> Task :feature:piechart:generateReleaseResources UP-TO-DATE
+> Task :feature:planned-payments:javaPreCompileRelease UP-TO-DATE
+> Task :feature:main:packageReleaseResources UP-TO-DATE
+> Task :feature:planned-payments:generateReleaseResources UP-TO-DATE
+> Task :feature:onboarding:packageReleaseResources UP-TO-DATE
+> Task :feature:loans:packageReleaseResources UP-TO-DATE
+> Task :feature:import-data:generateReleaseRFile UP-TO-DATE
+> Task :shared:data:core:kspReleaseKotlin UP-TO-DATE
+> Task :feature:onboarding:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:planned-payments:packageReleaseResources UP-TO-DATE
+> Task :feature:onboarding:generateReleaseRFile UP-TO-DATE
+> Task :feature:poll:impl:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:releases:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:releases:generateReleaseResValues UP-TO-DATE
+> Task :feature:poll:impl:generateReleaseResValues UP-TO-DATE
+> Task :feature:main:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:planned-payments:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:loans:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:poll:impl:javaPreCompileRelease UP-TO-DATE
+> Task :feature:piechart:packageReleaseResources UP-TO-DATE
+> Task :feature:releases:javaPreCompileRelease UP-TO-DATE
+> Task :feature:releases:generateReleaseResources UP-TO-DATE
+> Task :feature:planned-payments:generateReleaseRFile UP-TO-DATE
+> Task :feature:piechart:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:poll:impl:generateReleaseResources UP-TO-DATE
+> Task :feature:reports:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:reports:javaPreCompileRelease UP-TO-DATE
+> Task :feature:reports:generateReleaseResValues UP-TO-DATE
+> Task :feature:main:generateReleaseRFile UP-TO-DATE
+> Task :feature:piechart:generateReleaseRFile UP-TO-DATE
+> Task :feature:loans:generateReleaseRFile UP-TO-DATE
+> Task :feature:releases:packageReleaseResources UP-TO-DATE
+> Task :feature:poll:impl:packageReleaseResources UP-TO-DATE
+> Task :feature:search:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:settings:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:settings:generateReleaseResValues UP-TO-DATE
+> Task :feature:search:generateReleaseResValues UP-TO-DATE
+> Task :feature:reports:generateReleaseResources UP-TO-DATE
+> Task :feature:search:javaPreCompileRelease UP-TO-DATE
+> Task :feature:transactions:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:releases:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:settings:javaPreCompileRelease UP-TO-DATE
+> Task :feature:poll:impl:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:settings:generateReleaseResources UP-TO-DATE
+> Task :feature:search:generateReleaseResources UP-TO-DATE
+> Task :feature:transactions:generateReleaseResValues UP-TO-DATE
+> Task :feature:transactions:javaPreCompileRelease UP-TO-DATE
+> Task :feature:transactions:generateReleaseResources UP-TO-DATE
+> Task :shared:base:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :feature:releases:generateReleaseRFile UP-TO-DATE
+> Task :feature:settings:packageReleaseResources UP-TO-DATE
+> Task :feature:reports:packageReleaseResources UP-TO-DATE
+> Task :feature:search:packageReleaseResources UP-TO-DATE
+> Task :feature:poll:impl:generateReleaseRFile UP-TO-DATE
+> Task :shared:base:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared:data:model:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :feature:transactions:packageReleaseResources UP-TO-DATE
+> Task :feature:reports:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:accounts:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:attributions:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:reports:generateReleaseRFile UP-TO-DATE
+> Task :feature:transactions:parseReleaseLocalResources UP-TO-DATE
+> Task :shared:data:model:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :feature:settings:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:balance:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:transactions:generateReleaseRFile UP-TO-DATE
+> Task :feature:budgets:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:categories:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:contributors:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:search:parseReleaseLocalResources UP-TO-DATE
+> Task :feature:disclaimer:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:features:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:edit-transaction:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:home:prepareReleaseArtProfile UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :feature:settings:generateReleaseRFile UP-TO-DATE
+> Task :feature:main:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:exchange-rates:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:loans:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:import-data:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:piechart:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:search:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:onboarding:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:planned-payments:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:search:generateReleaseRFile UP-TO-DATE
+> Task :feature:releases:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:base:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:settings:prepareReleaseArtProfile UP-TO-DATE
+> Task :temp:legacy-code:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:reports:prepareReleaseArtProfile UP-TO-DATE
+> Task :widget:add-transaction:prepareReleaseArtProfile UP-TO-DATE
+> Task :widget:balance:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:transactions:prepareReleaseArtProfile UP-TO-DATE
+> Task :temp:old-design:prepareReleaseArtProfile UP-TO-DATE
+> Task :widget:shared-base:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:poll:impl:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:data:core:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:poll:public:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:data:model:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared:ui:navigation:prepareReleaseArtProfile UP-TO-DATE
+> Task :app:buildKotlinToolingMetadata UP-TO-DATE
+> Task :shared:ui:core:prepareReleaseArtProfile UP-TO-DATE
+> Task :feature:balance:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :shared:domain:prepareReleaseArtProfile UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :feature:budgets:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:categories:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:contributors:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:accounts:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:attributions:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:disclaimer:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:exchange-rates:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:edit-transaction:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:home:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:features:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:import-data:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:main:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:planned-payments:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:piechart:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:onboarding:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:releases:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:loans:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:reports:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:search:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:settings:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:mergeReleaseArtProfile UP-TO-DATE
+> Task :shared:base:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:transactions:writeReleaseAarMetadata UP-TO-DATE
+> Task :temp:old-design:writeReleaseAarMetadata UP-TO-DATE
+> Task :widget:balance:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:domain:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:poll:impl:writeReleaseAarMetadata UP-TO-DATE
+> Task :widget:shared-base:writeReleaseAarMetadata UP-TO-DATE
+> Task :widget:add-transaction:writeReleaseAarMetadata UP-TO-DATE
+> Task :temp:legacy-code:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:data:core:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:ui:core:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:ui:navigation:writeReleaseAarMetadata UP-TO-DATE
+> Task :feature:poll:public:writeReleaseAarMetadata UP-TO-DATE
+> Task :shared:data:model:writeReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :feature:balance:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:accounts:extractReleaseSupportedLocales UP-TO-DATE
+> Task :app:processReleaseGoogleServices UP-TO-DATE
+> Task :feature:attributions:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:budgets:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:contributors:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:categories:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:edit-transaction:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:exchange-rates:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:disclaimer:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:features:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:loans:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:onboarding:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:main:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:home:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:import-data:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:piechart:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:planned-payments:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:releases:extractReleaseSupportedLocales UP-TO-DATE
+> Task :app:injectCrashlyticsMappingFileIdRelease
+> Task :feature:search:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:reports:extractReleaseSupportedLocales UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :feature:transactions:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:settings:extractReleaseSupportedLocales UP-TO-DATE
+> Task :shared:base:extractReleaseSupportedLocales UP-TO-DATE
+> Task :shared:domain:extractReleaseSupportedLocales UP-TO-DATE
+> Task :widget:balance:extractReleaseSupportedLocales UP-TO-DATE
+> Task :temp:legacy-code:extractReleaseSupportedLocales UP-TO-DATE
+> Task :widget:shared-base:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:poll:impl:extractReleaseSupportedLocales UP-TO-DATE
+> Task :widget:add-transaction:extractReleaseSupportedLocales UP-TO-DATE
+> Task :temp:old-design:extractReleaseSupportedLocales UP-TO-DATE
+> Task :feature:poll:public:extractReleaseSupportedLocales UP-TO-DATE
+> Task :app:extractReleaseSupportedLocales
+> Task :shared:data:model:extractReleaseSupportedLocales UP-TO-DATE
+> Task :shared:ui:navigation:extractReleaseSupportedLocales UP-TO-DATE
+> Task :shared:ui:core:extractReleaseSupportedLocales UP-TO-DATE
+> Task :shared:data:core:extractReleaseSupportedLocales UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:accounts:extractDeepLinksRelease UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :feature:accounts:processReleaseManifest UP-TO-DATE
+> Task :feature:attributions:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:balance:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:categories:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:budgets:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:contributors:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:balance:processReleaseManifest UP-TO-DATE
+> Task :feature:budgets:processReleaseManifest UP-TO-DATE
+> Task :feature:categories:processReleaseManifest UP-TO-DATE
+> Task :feature:attributions:processReleaseManifest UP-TO-DATE
+> Task :feature:contributors:processReleaseManifest UP-TO-DATE
+> Task :feature:exchange-rates:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:edit-transaction:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:disclaimer:processReleaseManifest UP-TO-DATE
+> Task :feature:features:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:features:processReleaseManifest UP-TO-DATE
+> Task :feature:home:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:import-data:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:edit-transaction:processReleaseManifest UP-TO-DATE
+> Task :feature:import-data:processReleaseManifest UP-TO-DATE
+> Task :feature:disclaimer:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:main:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:exchange-rates:processReleaseManifest UP-TO-DATE
+> Task :feature:loans:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:onboarding:extractDeepLinksRelease UP-TO-DATE
+> Task :app:generateReleaseLocaleConfig UP-TO-DATE
+> Task :feature:piechart:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:main:processReleaseManifest UP-TO-DATE
+> Task :feature:planned-payments:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:home:processReleaseManifest UP-TO-DATE
+> Task :feature:loans:processReleaseManifest UP-TO-DATE
+> Task :feature:onboarding:processReleaseManifest UP-TO-DATE
+> Task :feature:reports:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:releases:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:piechart:processReleaseManifest UP-TO-DATE
+> Task :feature:planned-payments:processReleaseManifest UP-TO-DATE
+> Task :feature:releases:processReleaseManifest UP-TO-DATE
+> Task :feature:settings:processReleaseManifest UP-TO-DATE
+> Task :feature:search:processReleaseManifest UP-TO-DATE
+> Task :feature:settings:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:reports:processReleaseManifest UP-TO-DATE
+> Task :feature:transactions:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:base:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:search:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:base:processReleaseManifest UP-TO-DATE
+> Task :shared:domain:extractDeepLinksRelease UP-TO-DATE
+> Task :temp:legacy-code:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:transactions:processReleaseManifest UP-TO-DATE
+> Task :shared:domain:processReleaseManifest UP-TO-DATE
+> Task :temp:legacy-code:processReleaseManifest UP-TO-DATE
+> Task :temp:old-design:extractDeepLinksRelease UP-TO-DATE
+> Task :widget:add-transaction:extractDeepLinksRelease UP-TO-DATE
+> Task :temp:old-design:processReleaseManifest UP-TO-DATE
+> Task :widget:balance:extractDeepLinksRelease UP-TO-DATE
+> Task :widget:shared-base:extractDeepLinksRelease UP-TO-DATE
+> Task :widget:add-transaction:processReleaseManifest UP-TO-DATE
+> Task :feature:poll:impl:extractDeepLinksRelease UP-TO-DATE
+> Task :widget:shared-base:processReleaseManifest UP-TO-DATE
+> Task :feature:poll:public:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:data:core:extractDeepLinksRelease UP-TO-DATE
+> Task :widget:balance:processReleaseManifest UP-TO-DATE
+> Task :feature:poll:public:processReleaseManifest UP-TO-DATE
+> Task :shared:data:core:processReleaseManifest UP-TO-DATE
+> Task :shared:ui:core:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:data:model:extractDeepLinksRelease UP-TO-DATE
+> Task :shared:ui:core:processReleaseManifest UP-TO-DATE
+> Task :shared:ui:navigation:extractDeepLinksRelease UP-TO-DATE
+> Task :feature:poll:impl:processReleaseManifest UP-TO-DATE
+> Task :shared:data:model:processReleaseManifest UP-TO-DATE
+> Task :app:packageReleaseResources
+> Task :shared:ui:navigation:processReleaseManifest UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :shared:base:processReleaseJavaRes UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :feature:accounts:mergeReleaseShaders UP-TO-DATE
+> Task :feature:accounts:compileReleaseShaders NO-SOURCE
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :shared:data:model:processReleaseJavaRes UP-TO-DATE
+> Task :feature:attributions:mergeReleaseShaders UP-TO-DATE
+> Task :feature:accounts:generateReleaseAssets UP-TO-DATE
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :feature:attributions:compileReleaseShaders NO-SOURCE
+> Task :feature:accounts:packageReleaseAssets UP-TO-DATE
+> Task :feature:balance:mergeReleaseShaders UP-TO-DATE
+> Task :feature:attributions:generateReleaseAssets UP-TO-DATE
+> Task :feature:budgets:mergeReleaseShaders UP-TO-DATE
+> Task :feature:categories:mergeReleaseShaders UP-TO-DATE
+> Task :feature:attributions:packageReleaseAssets UP-TO-DATE
+> Task :feature:categories:compileReleaseShaders NO-SOURCE
+> Task :feature:categories:generateReleaseAssets UP-TO-DATE
+> Task :feature:contributors:mergeReleaseShaders UP-TO-DATE
+> Task :feature:budgets:compileReleaseShaders NO-SOURCE
+> Task :feature:budgets:generateReleaseAssets UP-TO-DATE
+> Task :feature:balance:compileReleaseShaders NO-SOURCE
+> Task :feature:balance:generateReleaseAssets UP-TO-DATE
+> Task :feature:categories:packageReleaseAssets UP-TO-DATE
+> Task :feature:budgets:packageReleaseAssets UP-TO-DATE
+> Task :feature:contributors:compileReleaseShaders NO-SOURCE
+> Task :feature:balance:packageReleaseAssets UP-TO-DATE
+> Task :feature:contributors:generateReleaseAssets UP-TO-DATE
+> Task :feature:disclaimer:mergeReleaseShaders UP-TO-DATE
+> Task :app:parseReleaseLocalResources
+> Task :feature:disclaimer:compileReleaseShaders NO-SOURCE
+> Task :feature:disclaimer:generateReleaseAssets UP-TO-DATE
+> Task :feature:edit-transaction:mergeReleaseShaders UP-TO-DATE
+> Task :feature:edit-transaction:compileReleaseShaders NO-SOURCE
+> Task :feature:edit-transaction:generateReleaseAssets UP-TO-DATE
+> Task :feature:contributors:packageReleaseAssets UP-TO-DATE
+> Task :feature:exchange-rates:mergeReleaseShaders UP-TO-DATE
+> Task :feature:features:mergeReleaseShaders UP-TO-DATE
+> Task :feature:disclaimer:packageReleaseAssets UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :feature:edit-transaction:packageReleaseAssets UP-TO-DATE
+> Task :feature:exchange-rates:compileReleaseShaders NO-SOURCE
+> Task :feature:home:mergeReleaseShaders UP-TO-DATE
+> Task :feature:exchange-rates:generateReleaseAssets UP-TO-DATE
+> Task :feature:import-data:mergeReleaseShaders UP-TO-DATE
+> Task :feature:home:compileReleaseShaders NO-SOURCE
+> Task :feature:home:generateReleaseAssets UP-TO-DATE
+> Task :feature:exchange-rates:packageReleaseAssets UP-TO-DATE
+> Task :feature:import-data:compileReleaseShaders NO-SOURCE
+> Task :feature:import-data:generateReleaseAssets UP-TO-DATE
+> Task :feature:features:compileReleaseShaders NO-SOURCE
+> Task :feature:loans:mergeReleaseShaders UP-TO-DATE
+> Task :feature:features:generateReleaseAssets UP-TO-DATE
+> Task :feature:import-data:packageReleaseAssets UP-TO-DATE
+> Task :feature:home:packageReleaseAssets UP-TO-DATE
+> Task :feature:loans:compileReleaseShaders NO-SOURCE
+> Task :feature:features:packageReleaseAssets UP-TO-DATE
+> Task :feature:loans:generateReleaseAssets UP-TO-DATE
+> Task :feature:main:mergeReleaseShaders UP-TO-DATE
+> Task :feature:onboarding:mergeReleaseShaders UP-TO-DATE
+> Task :feature:onboarding:compileReleaseShaders NO-SOURCE
+> Task :feature:loans:packageReleaseAssets UP-TO-DATE
+> Task :feature:onboarding:generateReleaseAssets UP-TO-DATE
+> Task :feature:releases:mergeReleaseShaders UP-TO-DATE
+> Task :feature:planned-payments:mergeReleaseShaders UP-TO-DATE
+> Task :feature:planned-payments:compileReleaseShaders NO-SOURCE
+> Task :feature:main:compileReleaseShaders NO-SOURCE
+> Task :feature:releases:compileReleaseShaders NO-SOURCE
+> Task :feature:main:generateReleaseAssets UP-TO-DATE
+> Task :feature:piechart:mergeReleaseShaders UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :feature:onboarding:packageReleaseAssets UP-TO-DATE
+> Task :feature:releases:generateReleaseAssets UP-TO-DATE
+> Task :feature:planned-payments:generateReleaseAssets UP-TO-DATE
+> Task :feature:piechart:compileReleaseShaders NO-SOURCE
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :feature:piechart:generateReleaseAssets UP-TO-DATE
+> Task :feature:releases:packageReleaseAssets UP-TO-DATE
+> Task :feature:main:packageReleaseAssets UP-TO-DATE
+> Task :feature:settings:mergeReleaseShaders UP-TO-DATE
+> Task :feature:reports:mergeReleaseShaders UP-TO-DATE
+> Task :feature:transactions:mergeReleaseShaders UP-TO-DATE
+> Task :feature:settings:compileReleaseShaders NO-SOURCE
+> Task :feature:settings:generateReleaseAssets UP-TO-DATE
+> Task :feature:transactions:compileReleaseShaders NO-SOURCE
+> Task :feature:transactions:generateReleaseAssets UP-TO-DATE
+> Task :feature:planned-payments:packageReleaseAssets UP-TO-DATE
+> Task :feature:transactions:packageReleaseAssets UP-TO-DATE
+> Task :feature:search:mergeReleaseShaders UP-TO-DATE
+> Task :feature:reports:compileReleaseShaders NO-SOURCE
+> Task :feature:reports:generateReleaseAssets UP-TO-DATE
+> Task :shared:base:mergeReleaseShaders UP-TO-DATE
+> Task :feature:piechart:packageReleaseAssets UP-TO-DATE
+> Task :feature:search:compileReleaseShaders NO-SOURCE
+> Task :feature:search:generateReleaseAssets UP-TO-DATE
+> Task :feature:settings:packageReleaseAssets UP-TO-DATE
+> Task :feature:reports:packageReleaseAssets UP-TO-DATE
+> Task :shared:base:compileReleaseShaders NO-SOURCE
+> Task :feature:search:packageReleaseAssets UP-TO-DATE
+> Task :shared:domain:mergeReleaseShaders UP-TO-DATE
+> Task :widget:add-transaction:mergeReleaseShaders UP-TO-DATE
+> Task :temp:legacy-code:mergeReleaseShaders UP-TO-DATE
+> Task :shared:base:generateReleaseAssets UP-TO-DATE
+> Task :widget:add-transaction:compileReleaseShaders NO-SOURCE
+> Task :widget:add-transaction:generateReleaseAssets UP-TO-DATE
+> Task :temp:legacy-code:compileReleaseShaders NO-SOURCE
+> Task :temp:legacy-code:generateReleaseAssets UP-TO-DATE
+> Task :shared:domain:compileReleaseShaders NO-SOURCE
+> Task :temp:old-design:mergeReleaseShaders UP-TO-DATE
+> Task :shared:domain:generateReleaseAssets UP-TO-DATE
+> Task :widget:balance:mergeReleaseShaders UP-TO-DATE
+> Task :shared:base:packageReleaseAssets UP-TO-DATE
+> Task :temp:old-design:compileReleaseShaders NO-SOURCE
+> Task :temp:old-design:generateReleaseAssets UP-TO-DATE
+> Task :widget:balance:compileReleaseShaders NO-SOURCE
+> Task :widget:add-transaction:packageReleaseAssets UP-TO-DATE
+> Task :widget:balance:generateReleaseAssets UP-TO-DATE
+> Task :shared:domain:packageReleaseAssets UP-TO-DATE
+> Task :temp:legacy-code:packageReleaseAssets UP-TO-DATE
+> Task :temp:old-design:packageReleaseAssets UP-TO-DATE
+> Task :feature:poll:impl:mergeReleaseShaders UP-TO-DATE
+> Task :widget:balance:packageReleaseAssets UP-TO-DATE
+> Task :widget:shared-base:mergeReleaseShaders UP-TO-DATE
+> Task :feature:poll:impl:compileReleaseShaders NO-SOURCE
+> Task :feature:poll:impl:generateReleaseAssets UP-TO-DATE
+> Task :feature:poll:public:mergeReleaseShaders UP-TO-DATE
+> Task :shared:data:core:mergeReleaseShaders UP-TO-DATE
+> Task :shared:data:core:compileReleaseShaders NO-SOURCE
+> Task :widget:shared-base:compileReleaseShaders NO-SOURCE
+> Task :shared:data:model:mergeReleaseShaders UP-TO-DATE
+> Task :widget:shared-base:generateReleaseAssets UP-TO-DATE
+> Task :shared:data:core:generateReleaseAssets UP-TO-DATE
+> Task :feature:poll:public:compileReleaseShaders NO-SOURCE
+> Task :shared:ui:core:mergeReleaseShaders UP-TO-DATE
+> Task :feature:poll:impl:packageReleaseAssets UP-TO-DATE
+> Task :feature:poll:public:generateReleaseAssets UP-TO-DATE
+> Task :feature:poll:public:packageReleaseAssets UP-TO-DATE
+> Task :widget:shared-base:packageReleaseAssets UP-TO-DATE
+> Task :shared:data:core:packageReleaseAssets UP-TO-DATE
+> Task :shared:data:model:compileReleaseShaders NO-SOURCE
+> Task :shared:ui:core:compileReleaseShaders NO-SOURCE
+> Task :shared:ui:core:generateReleaseAssets UP-TO-DATE
+> Task :app:extractReleaseVersionControlInfo UP-TO-DATE
+> Task :app:processApplicationManifestReleaseForBundle UP-TO-DATE
+> Task :shared:ui:core:packageReleaseAssets UP-TO-DATE
+> Task :shared:data:model:generateReleaseAssets UP-TO-DATE
+> Task :feature:accounts:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:writeReleaseAppMetadata UP-TO-DATE
+> Task :app:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :shared:ui:navigation:mergeReleaseShaders UP-TO-DATE
+> Task :shared:data:model:packageReleaseAssets UP-TO-DATE
+> Task :feature:accounts:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:accounts:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared:ui:navigation:compileReleaseShaders NO-SOURCE
+> Task :shared:ui:navigation:generateReleaseAssets UP-TO-DATE
+> Task :shared:base:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:ui:navigation:packageReleaseAssets UP-TO-DATE
+> Task :shared:domain:compileReleaseLibraryResources UP-TO-DATE
+> Task :temp:legacy-code:compileReleaseLibraryResources UP-TO-DATE
+> Task :feature:accounts:prepareLintJarForPublish UP-TO-DATE
+> Task :temp:old-design:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:data:core:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:data:model:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:ui:core:compileReleaseLibraryResources UP-TO-DATE
+> Task :shared:ui:navigation:compileReleaseLibraryResources UP-TO-DATE
+> Task :feature:accounts:mergeReleaseResources UP-TO-DATE
+> Task :feature:accounts:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:attributions:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:attributions:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:attributions:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:attributions:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :feature:balance:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:balance:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:balance:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :app:compressReleaseAssets UP-TO-DATE
+> Task :feature:balance:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:attributions:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:attributions:mergeReleaseResources UP-TO-DATE
+> Task :feature:budgets:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:budgets:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:accounts:verifyReleaseResources UP-TO-DATE
+> Task :feature:budgets:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:balance:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:budgets:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:categories:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:collectReleaseDependencies UP-TO-DATE
+> Task :feature:balance:mergeReleaseResources UP-TO-DATE
+> Task :app:sdkReleaseDependencyData UP-TO-DATE
+> Task :feature:categories:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:budgets:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:categories:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:categories:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:contributors:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:contributors:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:budgets:mergeReleaseResources UP-TO-DATE
+> Task :feature:contributors:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:categories:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:contributors:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:categories:mergeReleaseResources UP-TO-DATE
+> Task :feature:balance:verifyReleaseResources UP-TO-DATE
+> Task :feature:disclaimer:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:disclaimer:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:disclaimer:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:contributors:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:contributors:mergeReleaseResources UP-TO-DATE
+> Task :feature:disclaimer:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:categories:verifyReleaseResources UP-TO-DATE
+> Task :feature:edit-transaction:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:edit-transaction:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:edit-transaction:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:edit-transaction:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:disclaimer:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:disclaimer:mergeReleaseResources UP-TO-DATE
+> Task :feature:edit-transaction:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:budgets:verifyReleaseResources UP-TO-DATE
+> Task :feature:edit-transaction:mergeReleaseResources UP-TO-DATE
+> Task :widget:shared-base:compileReleaseLibraryResources UP-TO-DATE
+> Task :feature:exchange-rates:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:exchange-rates:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:exchange-rates:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:exchange-rates:prepareLintJarForPublish UP-TO-DATE
+> Task :widget:balance:compileReleaseLibraryResources UP-TO-DATE
+> Task :feature:exchange-rates:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:features:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:edit-transaction:verifyReleaseResources UP-TO-DATE
+> Task :feature:exchange-rates:mergeReleaseResources UP-TO-DATE
+> Task :feature:features:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :feature:features:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :feature:features:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:features:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :feature:exchange-rates:verifyReleaseResources UP-TO-DATE
+> Task :feature:features:mergeReleaseResources UP-TO-DATE
+> Task :feature:home:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:home:extractDeepLinksForAarRelease
+> Task :feature:home:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:home:copyReleaseJniLibsProjectAndLocalJars
+> Task :feature:home:mapReleaseSourceSetPaths
+> Task :widget:add-transaction:compileReleaseLibraryResources
+> Task :feature:poll:public:compileReleaseLibraryResources
+> Task :feature:import-data:stripReleaseDebugSymbols NO-SOURCE
+> Task :feature:import-data:copyReleaseJniLibsProjectAndLocalJars
+> Task :feature:import-data:extractDeepLinksForAarRelease
+> Task :feature:import-data:prepareLintJarForPublish UP-TO-DATE
+> Task :feature:import-data:mapReleaseSourceSetPaths
+> Task :feature:features:verifyReleaseResources FAILED
+> Task :feature:contributors:verifyReleaseResources FAILED
+> Task :feature:disclaimer:verifyReleaseResources FAILED
+> Task :shared:data:core:copyRoomSchemas NO-SOURCE
+> Task :feature:attributions:verifyReleaseResources FAILED
+> Task :feature:import-data:mergeReleaseResources
+> Task :feature:home:mergeReleaseResources
+> Task :app:mergeReleaseResources
+
+> Task :shared:data:core:compileReleaseKotlin
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:6:8 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:57:30 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:132:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:133:36 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:135:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:136:36 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:138:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:139:36 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:141:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:142:36 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:289:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:290:43 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:294:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:295:43 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:299:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:300:43 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:304:17 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/BackupDataUseCase.kt:306:50 'class SharedPrefs : Any' is deprecated. Use IvyWalletDataStore instead.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/IvyWalletCompleteData.kt:10:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/backup/IvyWalletCompleteData.kt:34:24 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:17:8 'interface UserDao : Any' is deprecated. No longer needed, must be removed.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:36:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:40:8 'data class UserEntity : Any' is deprecated. Legacy table. Must be dropped.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:70:9 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:71:9 'data class UserEntity : Any' is deprecated. Legacy table. Must be dropped.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/IvyRoomDatabase.kt:92:27 'interface UserDao : Any' is deprecated. No longer needed, must be removed.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/RoomTypeConverters.kt:4:8 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/RoomTypeConverters.kt:18:73 'fun LocalDateTime.toEpochMilli(): Long' is deprecated. Broken l egacy code, will deleted.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/RoomTypeConverters.kt:21:78 'fun Long.epochMilliToDateTime(): LocalDateTime' is deprecated. Broken legacy code, will deleted.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/RoomTypeConverters.kt:30:26 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/RoomTypeConverters.kt:33:51 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeAccountDao.kt:14:43 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeCategoryDao.kt:14:34 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:5:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:11:39 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:13:39 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:17:45 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:21:42 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:25:46 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:29:38 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeSettingsDao.kt:33:47 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:17:27 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:24:26 This declaration overrides a deprecated member but is not marked as deprecated itself. Please add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:29:35 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:37:35 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:49:60 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:58:89 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:73:25 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:83:60 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:94:89 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:105:91 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:115:85 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:130:25 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:141:79 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:154:25 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:164:59 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:175:90 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:185:84 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:196:88 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:201:76 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:212:79 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:225:25 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:241:34 'val isSynced: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:241:59 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:246:57 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:250:74 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:255:73 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:259:66 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:268:87 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:273:64 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:282:85 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/fake/FakeTransactionDao.kt:295:58 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/SettingsDao.kt:5:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/SettingsDao.kt:11:30 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/SettingsDao.kt:14:36 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/SettingsDao.kt:17:33 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/SettingsDao.kt:20:37 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/UserDao.kt:7:8 'data class UserEntity : Any' is deprecated. Legacy table. Must be dropped.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/UserDao.kt:14:28 'data class UserEntity : Any' is deprecated. Legacy table. Must be dropped.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/read/UserDao.kt:17:41 'data class UserEntity : Any' is deprecated. Legacy table. Must be dropped.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/write/WriteSettingsDao.kt:6:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/write/WriteSettingsDao.kt:12:29 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/dao/write/WriteSettingsDao.kt:15:38 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/entity/SettingsEntity.kt:7:8 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/db/entity/SettingsEntity.kt:19:16 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/di/RoomDbModule.kt:16:8 'interface UserDao : Any' is deprecated. No longer needed, must be removed.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/di/RoomDbModule.kt:50:46 'interface UserDao : Any' is deprecated. No longer needed, must be removed.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/CurrencyRepository.kt:4:8 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/CurrencyRepository.kt:8:8 'data class SettingsEntity : Any' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/CurrencyRepository.kt:45:20 'constructor(theme: Theme, currency: String, bufferAmount: Double, name: String, isSynced: Boolean = ..., isDeleted: Boolean = ..., id: UUID = ...): SettingsEntity' is deprecated. Legacy concept - migrate to DataStore and get rid of it.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/CurrencyRepository.kt:46:29 'enum class Theme : Enum<Theme>' is deprecated. Old design system. Use `:ivy-design` and Material3.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/mapper/AccountMapper.kt:20:17 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/mapper/CategoryMapper.kt:15:17 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+w: file:///home/zoro/Desktop/project/ivy-wallet/shared/data/core/src/main/java/com/ivy/data/repository/mapper/TransactionMapper.kt:34:17 'val isDeleted: Boolean' is deprecated. Obsolete field used for cloud sync. Can't be deleted because of backwards compatibility.
+662 actionable tasks: 20 executed, 642 up-to-date
+Configuration cache entry reused.
