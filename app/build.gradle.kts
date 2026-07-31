@@ -27,9 +27,9 @@ android {
         generateLocaleConfig = true
     }
 
-   signingConfigs {
+  signingConfigs {
     getByName("debug") {
-        storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+        storeFile = file("../debug.jks")
         storePassword = "android"
         keyAlias = "androiddebugkey"
         keyPassword = "android"
